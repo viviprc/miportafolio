@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color:#f9f9fa;
+}
+
+/*Navbar*/
+
+#Mynavbar {
+    background-color: #785096;
+    font-family: 'Amatic SC', cursive;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 10000;
+}
+
+.lett {
+    font-size: 24px;
+    font-family: 'Amatic SC', cursive;
+    transition: font-size 0.3s linear;
+}
+
+.vivi-logo {
+    font-size: 46px;  
+    font-family: 'Amatic SC', cursive;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 200;
+    text-align: center;
+    color:  #785096;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 24px;
+    text-align: left;
+    color:  #785096;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    text-align: center;
+    color:  #785096;
+}
+
+.card-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: left;
+    color:  #785096;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    color:  #785096;
+}
+/*Mi Foto*/
+
+#Myfoto {
+    padding-bottom: 50px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.parallax {
+    width: 100%;
+    height: 600px;
+    background-image: url('../images/myphoto.jpg');
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+/*Myself*/
+#Myself {
+    height: 350px;
+}
+
+/*Mi experiencia*/
+
+hr {
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.boton-exp {
+    background-color:  #785096;
+    font-family: 'Montserrat', sans-serif;
+    font-size: x-large;
+    color: white;
+}
+
+.boton-exp:hover {
+    color: #ecc8ea;
+}
+
+.boton-modal {
+    background-color: #785096 ;
+    color: white;
+}
+#Miexperiencia {
+    height: 350px;
+}
+
+.modal-header {
+    padding-top: 90px;
+}
+
+
+.icon {
+    color: #785096;
+}
+
+.carp {
+    text-align: center;
+}
+
+/*Carrusel*/
+
+#Carrusel {
+    height: 500px;
+}
+
+#carouselExampleIndicators {
+    height: 350px;
+}
+
+.carousel-indicators {
+    margin-bottom: 0;
+}
+
+.carousel-indicators li {
+width: 13px;
+height: 13px;  
+border-radius: 50%;
+background-color: #785096;
+}
+
+/*Últimos Trabajos sin carrusel*/ 
+.card {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.last-c {
+    margin-bottom: 40px;
+}
+
+/*Contacto*/
+
+#Contact{
+    background-color: #785096;
+}
+
+/*Footer*/
+
+footer {
+    text-align: center;
+    height: 80px;
+}
+
+.gh, .fb, .ins {
+    margin-left: 15px;
+    margin-right: 15px;
+    vertical-align: middle;
+}
+.fab {
+    color:  #785096;
+}
+
+@media (max-width:576px) {
+    #Myself {
+        display: none;
+    }
+
+    #Carrusel {
+        display: none;
+    }
+
+    #Yo {
+        display: none;
+    }
+
+    #link-carrusel {
+        display: none;
+    }
+
+}
+
+@media (min-width:576px) {
+    #Tarjetas {
+        display: none;
+    }
+
+    #link-tarjetas {
+        display: none;
+    }
+
+    #Miexperiencia {
+        height: 300px;
+    }
+
+    #Contact {
+        display: none;
+    }
+}
+
+
+
